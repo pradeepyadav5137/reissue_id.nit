@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (file.size > 512000) {
-      alert("File size must be less than 10MB");
+      alert("File size must be less than 500KB");
       photoInput.value = "";
       fileName.textContent = "No file chosen";
       return;
